@@ -1,6 +1,6 @@
 # Mini VHDL Projects
 
-This repository contains two independent yet complementary VHDL designs that can be used together or in isolation:
+This repository contains two independent yet complementary VHDL designs that were designed during the study at VUT FIT university:
 
 * **`cpu.vhd`** – a tiny 8‑bit soft‑core CPU able to run a Brain‑F*** interpreter.
 * **`uart_rx.vhd` / `uart_rx_fsm.vhd`** – a hardware UART receiver (RX) with a clean, synchronous interface.
@@ -98,7 +98,4 @@ ghdl -e cpu        # or uart_rx for stand‑alone test‑benches
 ## License
 MIT – see header of each file for details.
 
----
-
-*Happy hacking!*
 
